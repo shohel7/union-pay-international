@@ -28,6 +28,20 @@
       .swiper-pagination-bullet-active {
         background-color: white !important;
       }
+      .swiper-button-next {
+        --swiper-navigation-size: 18px;
+        color: gray !important;
+      }
+      .swiper-button-prev {
+        --swiper-navigation-size: 18px;
+        color: gray !important;
+      }
+       {
+        --swiper-navigation-size: 44px;
+        --swiper-navigation-top-offset: 50%;
+        --swiper-navigation-sides-offset: 10px;
+        --swiper-navigation-color: var(--swiper-theme-color);
+      }
     </style>
 
     <title>Union Pay International</title>
@@ -103,7 +117,31 @@
         </div>
       </div>
       <div class="px-2 md:px-[300px] pt-5 pb-4">
-        <div class="flex items-center md:justify-evenly">
+        <div class="grid grid-cols-3 gap-y-7 md:gap-y-10 border">
+          <div class="flex flex-col gap-3 text-center">
+            <span class="mx-auto"
+              ><i
+                class="fa-solid fa-gift bg-white rounded-full border border-gray-400 p-3"
+              ></i
+            ></span>
+            <span>U Rewards Platform</span>
+          </div>
+          <div class="flex flex-col gap-3 text-center">
+            <span class="mx-auto"
+              ><i
+                class="fa-solid fa-globe bg-white rounded-full border border-gray-400 p-3"
+              ></i
+            ></span>
+            <span>Cross-border Remittance</span>
+          </div>
+          <div class="flex flex-col gap-3 text-center">
+            <span class="mx-auto"
+              ><i
+                class="fa-solid fa-calendar bg-white rounded-full border border-gray-400 p-3"
+              ></i
+            ></span>
+            <span>Card Bonus</span>
+          </div>
           <div class="flex flex-col gap-3 text-center">
             <span class="mx-auto"
               ><i
@@ -140,112 +178,110 @@
           OFFERS AND PRIVILEGES
         </h2>
         <div class="grid grid-cols-2 gap-3 px-2">
-          <div class="pb-28 bg-gray-100 relative">
+          <div class="bg-gray-100">
             <img
               class="w-full"
               src="/images/offer-card-1.jpg"
               alt="offer-image"
             />
-            <div
-              class="flex justify-center w-full text-center absolute bottom-2 md:bottom-3"
-            >
+
+            <div class="flex justify-center py-2">
               <div
-                class="flex flex-col justify-center bg-white w-11/12 h-36 border border-gray-300 px-2"
+                class="flex flex-col items-center text-center bg-white border border-gray-300 h-36 w-36 md:h-40 md:w-40 rounded-full"
               >
-                <span>U.Plan</span>
+                <span class="mt-10">U.Plan</span>
                 <span class="text-gray-500">My exclusive offers</span>
               </div>
             </div>
           </div>
-          <div class="pb-28 bg-gray-100 relative">
+          <div class="bg-gray-100">
             <img
               class="w-full"
               src="/images/offer-card-2.jpg"
               alt="offer-image"
             />
-            <div
-              class="flex justify-center w-full text-center absolute bottom-2 md:bottom-3"
-            >
+
+            <div class="flex items-center justify-center py-2">
               <div
-                class="flex flex-col justify-center bg-white w-11/12 h-36 border border-gray-300 px-2"
+                class="flex flex-col items-center text-center bg-white border border-gray-300 h-36 w-36 md:h-40 md:w-40 rounded-full text-sm md:text-base"
               >
-                <span>Featured Offers</span>
+                <span class="mt-8">Featured Offers</span>
                 <span class="text-gray-500"
-                  >Enjoy substantial offers and privileges overseas</span
+                  >Enjoy substantial offers and privileges</span
                 >
               </div>
             </div>
           </div>
-          <div class="pb-28 bg-gray-100 relative">
+          <div class="bg-gray-100">
             <img
               class="w-full"
               src="/images/offer-card-3.jpg"
               alt="offer-image"
             />
-            <div
-              class="flex justify-center w-full text-center absolute bottom-2 md:bottom-3"
-            >
+
+            <div class="flex justify-center py-2">
               <div
-                class="flex flex-col justify-center bg-white w-11/12 h-36 border border-gray-300 px-2"
+                class="flex flex-col items-center text-center bg-white border border-gray-300 h-36 w-36 md:h-40 md:w-40 rounded-full text-sm md:text-base"
               >
-                <span>U Collection</span>
+                <span class="mt-7">U Collection</span>
                 <span class="text-gray-500">
                   Explore UnionPay global premium privileges
                 </span>
               </div>
             </div>
           </div>
-          <div class="pb-28 bg-gray-100 relative">
+          <div class="bg-gray-100">
             <img
               class="w-full"
               src="/images/offer-card-4.jpg"
               alt="offer-image"
             />
-            <div
-              class="flex justify-center w-full text-center absolute bottom-2 md:bottom-3"
-            >
+
+            <div class="flex justify-center py-2">
               <div
-                class="flex flex-col justify-center bg-white w-11/12 h-36 border border-gray-300 px-2"
+                class="flex flex-col items-center text-center bg-white border border-gray-300 h-36 w-36 md:h-40 md:w-40 rounded-full text-sm md:text-base"
               >
-                <span>U.Plan</span>
+                <span class="mt-7">U.Plan</span>
                 <span class="text-gray-500"
                   >Enjoy Fabulous Offers in Hong Kong & Macau</span
                 >
               </div>
             </div>
           </div>
-          <div class="pb-28 bg-gray-100 relative">
+          <div class="bg-gray-100">
             <img
               class="w-full"
               src="/images/offer-card-5.jpg"
               alt="offer-image"
             />
-            <div
-              class="flex justify-center w-full text-center absolute bottom-2 md:bottom-3"
-            >
+
+            <div class="flex justify-center py-2">
               <div
-                class="flex flex-col justify-center bg-white w-11/12 h-36 border border-gray-300 px-2"
+                class="flex flex-col items-center text-center bg-white border border-gray-300 h-36 w-36 md:h-40 md:w-40 rounded-full text-sm md:text-base"
               >
-                <span>UnionPay Cares About You</span>
+                <span class="mt-7"
+                  >UnionPay Cares <br />
+                  About You</span
+                >
                 <span class="text-gray-500">
-                  Local Offers for Daily Needs
+                  Local Offers for <br />
+                  Daily Needs
                 </span>
               </div>
             </div>
           </div>
-          <div class="pb-28 bg-gray-100 relative">
+          <div class="bg-gray-100">
             <img
               class="w-full"
               src="/images/offer-card-6.jpg"
               alt="offer-image"
             />
-            <div
-              class="flex justify-center w-full text-center absolute bottom-2 md:bottom-3"
-            >
+
+            <div class="flex justify-center py-2">
               <div
-                class="flex flex-col justify-center bg-white w-11/12 h-36 border border-gray-300 px-2"
+                class="flex flex-col items-center text-center bg-white border border-gray-300 h-36 w-36 md:h-40 md:w-40 rounded-full text-sm md:text-base"
               >
-                <span>Greater Bay Area Payment</span>
+                <span class="mt-7">Greater Bay Area Payment</span>
                 <span class="text-gray-500">Greater Bay Area Payment</span>
               </div>
             </div>
@@ -293,8 +329,81 @@
         </div>
       </div>
       <div class="bg-white pb-5 px-2 md:px-3">
+        <h3 class="text-xl md:text-2xl text-center font-bold">Our Clients</h3>
+
         <div class="bg-gray-100 py-5 px-3">
-          <div>
+          <div class="relative">
+            <div class="mySwiper swiper overflow-hidden w-full">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="border">
+                    <img
+                      class="w-full h-full"
+                      src="/images/our-client/Seba-2.jpg"
+                      alt="our-client-image"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="border">
+                    <img
+                      class="w-full h-full"
+                      src="/images/our-client/Seba-3.jpg"
+                      alt="our-client-image"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="border">
+                    <img
+                      class="w-full h-full"
+                      src="/images/our-client/Seba-4.jpg"
+                      alt="our-client-image"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="border">
+                    <img
+                      class="w-full h-full"
+                      src="/images/our-client/Seba-5.jpg"
+                      alt="our-client-image"
+                    />
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="border">
+                    <img
+                      class="w-full h-full"
+                      src="/images/our-client/Seba-6.jpg"
+                      alt="our-client-image"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="border">
+                    <img
+                      class="w-full h-full"
+                      src="/images/our-client/Seba-7.jpg"
+                      alt="our-client-image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="absolute -bottom-8 left-1/2">
+              <div class="flex">
+                <div
+                  class="swiper-button-prev border border-gray-500 p-4 bg-gray-300 rounded-full rotate-180"
+                ></div>
+                <div
+                  class="swiper-button-next border border-gray-500 p-4 bg-gray-300 rounded-full rotate-180"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <!-- <div>
             <div class="swiper w-full">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -338,8 +447,8 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="relative mt-7">
+          </div> -->
+          <!-- <div class="relative mt-7">
             <input
               class="border focus:outline-none pl-3 placeholder:text-sm py-2 w-full rounded-sm"
               type="text"
@@ -348,10 +457,10 @@
             <span class="absolute top-2 right-5"
               ><i class="fa-solid fa-magnifying-glass cursor-pointer"></i
             ></span>
-          </div>
+          </div> -->
         </div>
       </div>
-      <div class="bg-white pb-5 px-2 md:px-3">
+      <div class="bg-white py-5 px-2 md:px-3">
         <h2 class="text-center text-xl md:text-2xl font-bold py-5">
           News Center
         </h2>
@@ -393,13 +502,205 @@
           Products & Services
         </h2>
         <div class="flex flex-col gap-2">
-          <div class="collapse collapse-plus bg-base-200">
+          <div class="collapse bg-base-200 relative">
+            <input type="checkbox" class="peer" />
+            <div
+              class="collapse-title bg-white text-gray-800 peer-checked:bg-secondary peer-checked:text-secondary-content font-semibold text-lg"
+            >
+              UnionPay Mobile Payment
+            </div>
+            <div
+              class="collapse-content text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content bg-[url('/images/payment-method-image.jpg')] bg-cover top-0 right-0 left-0 bottom-0 h-full w-full px-3"
+            >
+              <div class="">
+                <div
+                  class="text-white flex items-center justify-between mt-5 text-xl"
+                >
+                  <span>UnionPay Mobile Payment</span>
+                  <i class="fa-solid fa-minus"></i>
+                </div>
+                <hr class="mt-4 mb-10" />
+                <div class="text-xs md:text-sm">
+                  <div class="flex gap-4">
+                    <button
+                      class="py-2 bg-white w-full text-gray-400"
+                      type="button"
+                    >
+                      UniPay Mobile QuickPass
+                    </button>
+                    <button
+                      class="py-2 bg-white w-full text-gray-400"
+                      type="button"
+                    >
+                      UniPay Mobile QuickPass
+                    </button>
+                  </div>
+                  <button
+                    class="py-2 bg-white w-full text-gray-400 mt-5"
+                    type="button"
+                  >
+                    QR Code Payment
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collapse bg-base-200 relative">
+            <input type="checkbox" class="peer" />
+            <div
+              class="collapse-title bg-white text-gray-800 peer-checked:bg-secondary peer-checked:text-secondary-content font-semibold text-lg"
+            >
+              UnionPay Card
+            </div>
+            <div
+              class="collapse-content text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content bg-[url('/images/union-pay.jpg')] bg-cover top-0 right-0 left-0 bottom-0 h-full w-full px-3"
+            >
+              <div
+                class="text-white flex items-center justify-between mt-5 text-xl"
+              >
+                <span>UnionPay Card</span>
+                <i class="fa-solid fa-minus"></i>
+              </div>
+              <hr class="mt-4 mb-10" />
+              <div class="grid grid-cols-3 gap-3 text-xs md:text-sm">
+                <div>
+                  <button
+                    class="py-2 bg-white w-full text-gray-400"
+                    type="button"
+                  >
+                    Debit Card
+                  </button>
+                </div>
+                <div>
+                  <button
+                    class="py-2 bg-white w-full text-gray-400"
+                    type="button"
+                  >
+                    Credit Card
+                  </button>
+                </div>
+                <div>
+                  <button
+                    class="py-2 bg-white w-full text-gray-400"
+                    type="button"
+                  >
+                    Prepaid Card
+                  </button>
+                </div>
+                <div>
+                  <button
+                    class="py-2 bg-white w-full text-gray-400"
+                    type="button"
+                  >
+                    Commercial Card
+                  </button>
+                </div>
+                <div>
+                  <button
+                    class="py-2 bg-white w-full text-gray-400"
+                    type="button"
+                  >
+                    Premium Card
+                  </button>
+                </div>
+                <div>
+                  <button
+                    class="py-2 bg-white w-full text-gray-400"
+                    type="button"
+                  >
+                    Theme Card
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collapse bg-base-200 relative">
+            <input type="checkbox" class="peer" />
+            <div
+              class="collapse-title bg-white text-gray-800 peer-checked:bg-secondary peer-checked:text-secondary-content font-semibold text-lg"
+            >
+              Services and Benefits
+            </div>
+            <div
+              class="collapse-content text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content bg-[url('/images/service-and-benefit.jpg')] bg-cover top-0 right-0 left-0 bottom-0 h-full w-full px-3"
+            >
+              <div class="">
+                <div
+                  class="text-white flex items-center justify-between mt-5 text-xl"
+                >
+                  <span>Services and Benefits</span>
+                  <i class="fa-solid fa-minus"></i>
+                </div>
+                <hr class="mt-4 mb-10" />
+
+                <div class="flex flex-col gap-3 text-xs md:text-sm">
+                  <div>
+                    <button
+                      class="py-2 bg-white w-full text-gray-400"
+                      type="button"
+                    >
+                      UnionPay Card Emergency Assistance Service
+                    </button>
+                  </div>
+                  <div>
+                    <button
+                      class="py-2 bg-white w-full text-gray-400"
+                      type="button"
+                    >
+                      Cross-border Remittance
+                    </button>
+                  </div>
+                  <div>
+                    <button
+                      class="py-2 bg-white w-full text-gray-400"
+                      type="button"
+                    >
+                      UnionPay Tax Refund
+                    </button>
+                  </div>
+                  <div>
+                    <button
+                      class="py-2 bg-white w-full text-gray-400"
+                      type="button"
+                    >
+                      Study Abroad Service
+                    </button>
+                  </div>
+                  <div>
+                    <button
+                      class="py-2 bg-white w-full text-gray-400"
+                      type="button"
+                    >
+                      U Rewards Platform
+                    </button>
+                  </div>
+                  <div>
+                    <button
+                      class="py-2 bg-white w-full text-gray-400"
+                      type="button"
+                    >
+                      Installment Service
+                    </button>
+                  </div>
+                  <div>
+                    <button
+                      class="py-2 bg-white w-full text-gray-400"
+                      type="button"
+                    >
+                      China Visa Application Express Service
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="collapse collapse-plus bg-base-200">
             <input type="radio" name="my-accordion-3" checked="checked" />
             <div class="collapse-title text-lg font-medium bg-white">
               UnionPay Mobile Payment
             </div>
             <div
-              class="collapse-content bg-[url('/images/payment-method-image.jpg')] relative -top-16 bg-cover"
+              class="collapse-content bg-[url('/images/payment-method-image.jpg')] bg-cover"
             >
               <div
                 class="text-white flex items-center justify-between mt-5 text-xl"
@@ -448,7 +749,7 @@
               UnionPay Card
             </div>
             <div
-              class="collapse-content bg-[url('/images/union-pay.jpg')] relative -top-16"
+              class="collapse-content bg-[url('/images/union-pay.jpg')] bg-cover"
             >
               <div
                 class="text-white flex items-center justify-between mt-5 text-xl"
@@ -516,7 +817,7 @@
               Services and Benefits
             </div>
             <div
-              class="collapse-content bg-[url('/images/service-and-benefit.jpg')] relative -top-16"
+              class="collapse-content bg-[url('/images/service-and-benefit.jpg')]"
             >
               <div
                 class="text-white flex items-center justify-between mt-5 text-xl"
@@ -585,7 +886,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </main>
@@ -637,6 +938,28 @@
         //   nextEl: ".swiper-button-next",
         //   prevEl: ".swiper-button-prev",
         // },
+      });
+
+      const cardSwiper = new Swiper(".mySwiper", {
+        // Optional parameters
+        spaceBetween: 30,
+        slidesPerView: 2,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
       });
     </script>
   </body>
